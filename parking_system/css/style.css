@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Adjust main content */
+.main-content {
+  margin-left: 250px; /* Push main content to the right */
+  padding: 20px;
+}
+
+/* Center the table with slight right shift */
+main {
+  display: flex;
+  justify-content: center; /* Keeps it centered horizontally */
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 50px; /* Moves everything slightly to the right */
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%; /* Adjust width as needed */
+  margin-top: 20px;
+  margin-left: 30px; /* Moves table slightly to the right */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+/* Header */
+.header {
+  background: #3e8cda;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 200px; /* Increased default width */
+  height: 100vh;
+  background: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  transition: width 0.3s ease;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+.sidebar ul li a {
+  display: block;
+  color: white;
+  font-size: 20px; /* Make icons larger */
+  text-align: center;
+  padding: 10px;
+  transition: background 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  background: #9181ec;
+  border-radius: 5px;
+}
+
+/* Responsive: Shrink sidebar when screen is small */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 60px; /* Slightly bigger than before */
+  }
+
+  .sidebar ul li a {
+    font-size: 22px; /* Keep icons readable */
+  }
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2980b9;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #2c3e50;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
