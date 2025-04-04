@@ -1,0 +1,195 @@
+/* Header Styling */
+.header {
+  background: url("wood_banner.jpg") repeat-x;
+  color: black;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  height: 200px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+/* Navigation Sidebar */
+.navbar {
+  height: 100%;
+  height: calc(100vh - 70px);
+  width: 175px;
+  background-color: #000000;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  flex-wrap: nowrap;
+}
+
+/* Navbar links */
+.navbar ul {
+  list-style: none;
+  width: 100%;
+}
+
+.navbar ul li {
+  width: 100%;
+}
+
+.navbar ul li a {
+  display: block;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+  background-color: #0056b3;
+  border-bottom: 1px solid #ffffff40;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #003f7f;
+}
+
+/* Center the table with slight right shift */
+main {
+  display: flex;
+  margin-left: 250px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 280px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.card .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+.edit-btn {
+  background-color: #007bff;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 200px;
+  margin-top: 80px;
+  width: fit-content;
+}
+
+.table-footer {
+  display: flex;
+  justify-content: flex-start; /* Aligns button to the bottom-left */
+  margin-top: 10px; /* Adds space between table and button */
+}
+
+.add-pet-btn {
+  padding: 10px 20px;
+  background-color: #28a745; /* Green */
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-pet-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+}
+
+.footer a {
+  color: blue;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
